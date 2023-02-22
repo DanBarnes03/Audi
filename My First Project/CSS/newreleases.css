@@ -1,0 +1,58 @@
+.etronPic {
+    display:flex;
+    flex-direction: column;
+    height:450px;
+    width:900px;
+    border-radius:30px;
+    margin-top:20px;
+}
+
+.etronCaption {
+    text-align: center;
+    display: flex;
+    margin-top:5px;
+    margin-left:40px;
+    font-family: Arial;
+    font-size:18px;
+}
+
+.right {
+    display:flex;
+    flex-direction: column;
+    width:800px;
+    text-indent: 10px;
+    font-size:24px;
+    font-family:Arial;
+    margin-top:0px;
+}
+
+main {
+    display:flex;
+    flex-direction: row;
+}
+
+.hybridPic {
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    border-radius:30px;
+    margin-left:80px;
+}
+
+.hybridCaption {
+    text-align: center;
+    display: flex;
+    margin-top:5px;
+    margin-left:120px;
+    font-family: Arial;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.etronPic:hover {
+    box-shadow: 5px 5px whitesmoke;
+}
+
+.hybridPic:hover {
+    box-shadow: 5px 5px whitesmoke;
+}

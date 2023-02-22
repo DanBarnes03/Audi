@@ -1,0 +1,60 @@
+main {
+    display:flex;
+    justify-content: space-between;
+}
+
+.mainText {
+    display:flex;
+    width: 1000px;
+    font-family: Arial;
+    text-indent:10px;
+    font-size: 24px;
+    flex-direction: column;
+    padding:0px 70px 0px 30px;
+}
+
+.map {
+    display:flex;
+    flex-direction: column;
+    margin-top:25px;
+    margin-right:40px;
+}
+
+.mapCaption {
+    display:flex;
+    margin-top:5px;
+    margin-left:40px;
+    font-family: Arial;
+    font-size:18px;
+}
+
+.england:hover {
+    box-shadow: 5px 5px whitesmoke;
+}
+
+.dealer {
+    display:flex;
+    flex-direction: column;
+    height:315px;
+    width:600px;
+    align-self: center;
+    border-radius: 30px;
+}
+
+.rightSide {
+    display:flex;
+    flex-direction: column;
+}
+
+.dealerCaption {
+    display:flex;
+    margin-top:5px;
+    margin-left:40px;
+    font-family: Arial;
+    font-size:18px;
+}
+
+.dealer:hover {
+    box-shadow: 5px 5px whitesmoke;
+}
+

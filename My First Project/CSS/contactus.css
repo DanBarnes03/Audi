@@ -1,0 +1,74 @@
+.topContact {
+    display:flex;
+    flex-direction: row;
+    height:500px;
+}
+
+.left {
+    margin-top:20px;
+    display:flex;
+    width:50%px;
+}
+
+.audi {
+    display:flex;
+    flex-direction: column;
+}
+
+.audiCaption {
+    text-align: center;
+    display: flex;
+    margin-top:5px;
+    margin-left:40px;
+    font-family: Arial;
+    font-size:18px;
+}
+
+.audi {
+    border-radius: 30px;
+    display:flex;
+    width:800px;
+    height:400px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    font-family:Arial;
+    font-size:24px;
+    margin-top:50px;
+    width:750px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: space-evenly;
+    margin-bottom:100px;
+    margin-top:50px;
+}
+
+.phone {
+    display:flex;
+    height:75px;
+    width:75px;
+}
+
+.email {
+    display:flex;
+    height:75px;
+    width:75px;
+}
+
+.location {
+    display:flex;
+    height:75px;
+    width:75px;
+}
+
+.audi:hover {
+    box-shadow: 5px 5px whitesmoke;
+}

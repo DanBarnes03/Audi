@@ -1,0 +1,92 @@
+main {
+    display:flex;
+}
+
+.audiDescription {
+    text-indent: 10px;
+    display:flex;
+    flex-direction: column;
+    font-size:24px;
+    font-family:Arial;
+    margin-top:20px;
+    margin-left:20px;
+    width:1000px;
+    height:1000px;
+}
+
+.mainText {
+    display:flex;
+    flex-direction: row;
+}
+
+.tt:hover {
+    box-shadow:5px 5px whitesmoke;
+}
+
+.tt {
+    display: flex;
+    width:700px;
+    height:435px;
+    border-radius: 30px;
+    margin-top:20px;
+}
+
+.caption {
+    text-align: center;
+    display: flex;
+    margin-top:5px;
+    margin-left:40px;
+    font-family: Arial;
+    font-size:18px;
+}
+
+.r8:hover {
+    box-shadow:5px 5px whitesmoke;
+}
+
+.r8 {
+    display:flex;
+    width: 700px;
+    height: 450px;
+    justify-content: left;
+    border-radius:30px;
+}
+
+.captionR8 {
+    text-align: center;
+    display: flex;
+    margin-top:5px;
+    margin-left:40px;
+    font-family: Arial;
+    font-size:18px;
+}
+
+.footerLeft {
+    display:flex;
+    height:20%;
+    width:100%;
+    background-color:rgb(141, 141, 247);
+    border-radius: 30px 0px 0px 0px;
+}
+
+.footerRight {
+    display:flex;
+    flex-direction: column;
+    height:210px;
+    width:75%;
+    background-color:rgb(141, 141, 247);
+    border-radius: 0px 30px 0px 0px;
+}
+
+footer {
+    display:flex;
+    justify-content:space-between;
+}
+
+.track {
+    width:400px;
+    height:210px;
+    display:flex;
+    align-self:center;
+    margin-left:900px;
+}
